@@ -1,14 +1,15 @@
 // script.js
 const festivals = [
-  { name: "元旦", date: "2025-01-01" },
-  { name: "除夕", date: "2025-01-28" },
-  { name: "春节", date: "2025-01-29" },
   { name: "清明节", date: "2025-04-04" },
   { name: "劳动节", date: "2025-05-01" },
   { name: "端午节", date: "2025-06-10" },
+  { name: "暑假", date: "2025-07-05" },
   { name: "中秋节", date: "2025-09-17" },
   { name: "国庆节", date: "2025-10-01" },
-  { name: "寒假", date: "2025-01-20" },
+  { name: "元旦", date: "2026-01-01" },
+  { name: "除夕", date: "2026-02-16" },
+  { name: "春节", date: "2025-02-17" },
+
 ];
 
 function calculateCountdown(date) {
